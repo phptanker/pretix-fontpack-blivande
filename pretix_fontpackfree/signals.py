@@ -530,4 +530,26 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/space-mono-v10-latin-ext_latin-700italic.woff2",
             },
         },
+        "Jost": {
+            "black": {
+                "truetype": basepath + "/Jost-Black.ttf",
+                "woff": basepath + "/space-mono-v10-latin-ext_latin-regular.woff",
+                "woff2": basepath + "/space-mono-v10-latin-ext_latin-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/space-mono-v10-latin-ext_latin-700.ttf",
+                "woff": basepath + "/space-mono-v10-latin-ext_latin-700.woff",
+                "woff2": basepath + "/space-mono-v10-latin-ext_latin-700.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/space-mono-v10-latin-ext_latin-italic.ttf",
+                "woff": basepath + "/space-mono-v10-latin-ext_latin-italic.woff",
+                "woff2": basepath + "/space-mono-v10-latin-ext_latin-italic.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/space-mono-v10-latin-ext_latin-700italic.ttf",
+                "woff": basepath + "/space-mono-v10-latin-ext_latin-700italic.woff",
+                "woff2": basepath + "/space-mono-v10-latin-ext_latin-700italic.woff2",
+            },
+        },        
     }

@@ -4,13 +4,13 @@ from . import __version__
 
 
 class PluginApp(AppConfig):
-    name = "pretix_fontpackfree"
-    verbose_name = "Fontpack: Free fonts"
+    name = "pretix_fontpackblivande"
+    verbose_name = "Fontpack: Blivande"
 
     class PretixPluginMeta:
-        name = "Fontpack: Free fonts"
-        author = "Raphael Michel"
-        description = "Pack of free fonts for pretix"
+        name = "Fontpack: Blivande fonts"
+        author = "Philip Shevin"
+        description = "Pack of fonts for Blivande"
         visible = False
         version = __version__
         compatibility = "pretix>=4.16.0"
