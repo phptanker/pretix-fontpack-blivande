@@ -531,25 +531,15 @@ def fontpack_free(sender, **kwargs):
             },
         },
         "Jost": {
-            "black": {
-                "truetype": basepath + "/Jost-Black.ttf",
-                "woff": basepath + "/space-mono-v10-latin-ext_latin-regular.woff",
-                "woff2": basepath + "/space-mono-v10-latin-ext_latin-regular.woff2",
-            },
-            "bold": {
-                "truetype": basepath + "/space-mono-v10-latin-ext_latin-700.ttf",
-                "woff": basepath + "/space-mono-v10-latin-ext_latin-700.woff",
-                "woff2": basepath + "/space-mono-v10-latin-ext_latin-700.woff2",
-            },
-            "italic": {
-                "truetype": basepath + "/space-mono-v10-latin-ext_latin-italic.ttf",
-                "woff": basepath + "/space-mono-v10-latin-ext_latin-italic.woff",
-                "woff2": basepath + "/space-mono-v10-latin-ext_latin-italic.woff2",
-            },
-            "bolditalic": {
-                "truetype": basepath + "/space-mono-v10-latin-ext_latin-700italic.ttf",
-                "woff": basepath + "/space-mono-v10-latin-ext_latin-700italic.woff",
-                "woff2": basepath + "/space-mono-v10-latin-ext_latin-700italic.woff2",
-            },
+            "regular": {
+                "truetype": basepath + "/jost.ttf",
+                "woff": basepath + "/jost.woff",
+                "woff2": basepath + "/jost.woff2",
+        },
+        "Baskerville": {
+            "regular": {
+                "truetype": basepath + "/baskervville.ttf",
+                "woff": basepath + "/baskervville.woff",
+                "woff2": basepath + "/baskervville.woff2",
         },        
     }
