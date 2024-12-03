@@ -1,16 +1,16 @@
 [project]
-name = "pretix-fontpack-free"
+name = "pretix-fontpack-Blivande"
 dynamic = ["version"]
-description = "Pack of free fonts for pretix"
+description = "Pack of free fonts for Blivande"
 readme = "README.rst"
 requires-python = ">=3.9"
 license = {file = "LICENSE"}
 keywords = ["pretix"]
 authors = [
-    {name = "pretix team", email = "support@pretix.eu"},
+    {name = "Philip Shevin", email = "philip390@gmail.com"},
 ]
 maintainers = [
-    {name = "pretix team", email = "support@pretix.eu"},
+    {name = "Philip Shevin", email = "philip390@gmail.com"},
 ]
 
 dependencies = [
@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.entry-points."pretix.plugin"]
-pretix_fontpackfree = "pretix_fontpackfree:PretixPluginMeta"
+pretix_fontpackblivande = "pretix_fontpackblivande:PretixPluginMeta"
 
 [project.entry-points."distutils.commands"]
 build = "pretix_plugin_build.build:CustomBuild"
@@ -30,13 +30,13 @@ requires = [
 ]
 
 [project.urls]
-homepage = "https://github.com/pretix/pretix-fontpack-free"
+homepage = "https://github.com/phptanker/pretix-fontpack-blivande"
 
 [tool.setuptools]
 include-package-data = true
 
 [tool.setuptools.dynamic]
-version = {attr = "pretix_fontpackfree.__version__"}
+version = {attr = "pretix_fontpackblivande.__version__"}
 
 [tool.setuptools.packages.find]
 include = ["pretix*"]
