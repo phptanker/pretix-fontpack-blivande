@@ -535,6 +535,7 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/jost.ttf",
                 "woff": basepath + "/jost.woff",
                 "woff2": basepath + "/jost.woff2",
+            }
         },
         "Baskerville": {
             "regular": {
