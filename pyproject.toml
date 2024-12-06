@@ -1,5 +1,5 @@
 [project]
-name = "pretix-fontpack-Blivande"
+name = "pretix-fontpack-blivande"
 dynamic = ["version"]
 description = "Pack of free fonts for Blivande"
 readme = "README.rst"
