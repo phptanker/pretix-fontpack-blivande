@@ -544,3 +544,4 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/baskervville.woff2",
         },        
     }
+    }
