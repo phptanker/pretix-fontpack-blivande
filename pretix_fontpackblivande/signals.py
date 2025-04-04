@@ -550,11 +550,6 @@ def fontpack_free(sender, **kwargs):
                 "woff": basepath + "/BricolageGrotesque-Regular.woff",
                 "woff2": basepath + "/BricolageGrotesque-Regular.woff2",
             },
-            "bold": {
-                "truetype": basepath + "/BricolageGrotesque-Bold.ttf",
-                "woff": basepath + "/BricolageGrotesque-Bold.woff",
-                "woff2": basepath + "/BricolageGrotesque-Bold.woff2",
-            },
         },
         "Space Grotesk": {
             "regular": {
