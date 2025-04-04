@@ -542,6 +542,38 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/baskervville.ttf",
                 "woff": basepath + "/baskervville.woff",
                 "woff2": basepath + "/baskervville.woff2",
-        },        
+        },      
+        "Bricolage Grotesque": {
+            "regular": {
+                "truetype": basepath + "/BricolageGrotesque-Regular.ttf",
+                "woff2": basepath + "/BricolageGrotesque-Regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/BricolageGrotesque-Regular.ttf",
+                "woff2": basepath + "/BricolageGrotesque-Regular.woff2",
+            },
+            "regular": {
+                "truetype": basepath + "/BricolageGrotesque-Regular.ttf",
+                "woff2": basepath + "/BricolageGrotesque-Regular.woff2",
+            },
+        },
+        "Space Grotesk": {
+            "bold": {
+                "truetype": basepath + "/SpaceGrotesk-Bold.ttf",
+                "woff2": basepath + "/SpaceGrotesk-Bold.woff2",
+            },
+            "light": {
+                "truetype": basepath + "/SpaceGrotesk-Light.ttf",
+                "woff2": basepath + "/SpaceGrotesk-Light.woff2",
+            },
+            "medium": {
+                "truetype": basepath + "/SpaceGrotesk-Medium.ttf",
+                "woff2": basepath + "/SpaceGrotesk-Medium.woff2",
+            },
+            "regular": {
+                "truetype": basepath + "/SpaceGrotesk-Regular.ttf",
+                "woff2": basepath + "/SpaceGrotesk-Regular.woff2",
+            }
+        }
     }
     }
